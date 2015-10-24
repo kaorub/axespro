@@ -1,0 +1,48 @@
+[
+{
+  "name": "CTO",
+  "parent": "null",
+  "children": [
+    {
+      "name": "Head of IT",
+      "parent": "CTO",
+      "children": [
+        {
+          "name": "Project manager",
+          "parent": "Head of IT"
+        },
+        {
+          "name": "Senior system administrator",
+          "parent": "Head of IT"
+        },
+        {
+          "name": "Team leader",
+          "parent": "Head of IT",
+          "children": [
+            {
+              "name": "Backend dev",
+              "parent": "Team leader"
+            },
+            {
+              "name": "Frontend dev",
+              "parent": "Team leader"
+            },
+            {
+              "name": "iOS dev",
+              "parent": "Team leader"
+            }
+          ]
+        },
+        {
+          "name": "Senior system administrator",
+          "parent": "Head of IT"
+        }
+      ]
+    },
+    {
+      "name": "Head engineer",
+      "parent": "CTO"
+    }
+  ]
+}
+]
